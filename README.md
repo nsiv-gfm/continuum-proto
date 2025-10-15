@@ -1,19 +1,20 @@
-# GFM Cohort Prototype (Vercel-ready)
+# Continuum Prototype
 
-This repo contains a Vite + React app with TailwindCSS and your latest **App.jsx** implementation.
+This project is a React + Vite app using **shadcn/ui**, **TailwindCSS**, **Framer Motion**, and **Lucide**.
 
-## Local dev
+## 🧩 Setup
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Deploy to Vercel
-1. Push this folder to a new GitHub repository.
-2. In Vercel, **Import Project** from GitHub.
-3. Framework preset: **Vite** (or just 'Other' — Vercel will detect Vite).
-4. **Build Command:** `npm run build`
-5. **Output Directory:** `dist`
-6. Click **Deploy**.
+Then open [http://localhost:5173](http://localhost:5173).
 
-> Images use a placeholder at `/public/placeholder.svg`. Replace with your real headshots (same filenames) if desired.
+## 🚀 Deploy to Vercel
+
+1. Push this folder to a new GitHub repository named `continuum-prototype`
+2. Visit [vercel.com/new](https://vercel.com/new)
+3. Import the repo and click **Deploy** — Vercel auto-detects Vite.
+
+That's it!
