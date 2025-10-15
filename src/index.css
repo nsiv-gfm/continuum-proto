@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.75rem;
+}
+
+.prose h2 { @apply text-xl font-semibold mt-4 mb-2; }
+.prose p { @apply mb-2; }
