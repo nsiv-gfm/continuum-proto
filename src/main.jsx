@@ -1,9 +1,9 @@
 import React from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './gfm_cohort_prototype_smorgasbord_storyboard_app.jsx'
+import ReactDOM from 'react-dom/client'
 import './index.css'
+import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

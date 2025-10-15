@@ -1,10 +1,9 @@
 import React from 'react'
-export const Badge = ({ className='', variant='default', ...props }) => {
-  const base = "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors"
+export function Badge({ className='', variant='default', ...props }) {
   const variants = {
-    default: "bg-muted text-foreground",
-    secondary: "bg-primary text-primary-foreground"
+    default: 'bg-zinc-900 text-white',
+    secondary: 'bg-zinc-200 text-zinc-900',
+    outline: 'border border-zinc-300 text-zinc-700'
   }
-  return <div className={[base, variants[variant]||variants.default, className].join(' ')} {...props} />
+  return <span className={['inline-flex items-center text-xs px-2 py-1 rounded-full', variants[variant]||'', className].join(' ')} {...props} />
 }
-export default Badge
